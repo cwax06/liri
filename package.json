@@ -1,0 +1,30 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "A CLI bot to pull data from spotify, twitter, and OMDB",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k90armstrong/liri.git"
+  },
+  "keywords": [
+    "LIRI",
+    "Spotify",
+    "Twitter",
+    "OMDB"
+  ],
+  "author": "Kyle Armstrong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k90armstrong/liri/issues"
+  },
+  "homepage": "https://github.com/k90armstrong/liri#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
