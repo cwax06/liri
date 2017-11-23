@@ -65,6 +65,7 @@ function runMain() {
                     console.log('There was an error: ', error);
                 }
             });
+            break;
         default:
             console.log('____________________________________________________');    
             console.log('try these commands:');
