@@ -33,7 +33,6 @@ function MyTwitter() {
     }
     self.prettyPrintTweets = function(tweets) {
         // this will log the tweets in a nice format
-        console.log(tweets);
         console.log('\n\n');
         console.log('Tweet Timeline, Past ' + tweets.length + ' tweets.');
         console.log('----------------------------------------------------------------------------------');        
