@@ -21,9 +21,20 @@ function MySpotify() {
         });
     }
     self.prettyPrintSongs = function(tracks) {
-        console.log(tracks);
+        console.log('\n\n');
+        console.log('Spotify Results');
+        console.log('---------------------------------------------------------');
         for (var i = 0; i < tracks.length; i++) {
-            console.log(tracks[i].album);
+            var artists = [];
+            for (var j = 0; j < tracks[i].artists.length; j++) {
+                artists.push(tracks[i].artists[j].name);
+            }
+            console.log('Song Title: ' + tracks[i].name);            
+            console.log('Atrist(s): ' + artists.join(', '));
+            console.log('Album: ' + tracks[i].album.name);
+            console.log('Preview Link: ' + tracks[i].preview_url);
+            console.log('_________________________________________________________');
+
         }
     }
 }
